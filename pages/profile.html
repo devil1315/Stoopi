@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="../assets/images/logo/logo.svg" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <title>Profile | Stoopi</title>
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="preloader">
+        <img src="../assets/images/logo/logo.svg" alt="loader" class="lds-ripple img-fluid" />
+    </div>
+    <div id="main-wrapper">
+        <aside class="left-sidebar with-vertical">
+            <div class="brand-logo d-flex align-items-center justify-content-between">
+                <a href="./index.html" class="text-nowrap logo-img">
+                    <img src="../assets/images/logo/logotext.svg" class="dark-logo" alt="Logo-Dark" />
+                </a>
+                <a href="javascript:void(0)" class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none">
+                    <i class="fa fa-times"></i>
+                </a>
+            </div>
+
+            <div class="scroll-sidebar" data-simplebar>
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav" class="mb-0">
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="index.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6 fa fa-home"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="user.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6 fa fa-users"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Users</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="post.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6 fa-solid fa-photo-film"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Active Posts</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="category.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6 fa-solid fa-list"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Category</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="config.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6 fa-solid fa-gear"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Configurations</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="notify.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6 fa-solid fa-bell"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Notifications</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="help.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6 fa fa-circle-question"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Help & Supports</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="about.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6  fas fa-info-circle"></i>
+                                </span>
+                                <span class="hide-menu ps-1">About Us</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="terms.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6  fa-solid fa-comment-dots"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Terms & Conditions</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg " href="privacy.html" 
+                                aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6  fa-solid fa-file-shield"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Privacy Policy</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg active" href="profile.html"
+                                 aria-expanded="false">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <i class="fs-6  fa-solid fa-circle-user"></i>
+                                </span>
+                                <span class="hide-menu ps-1">Profile</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </aside>
+        <div class="page-wrapper">
+            <div class="body-wrapper">
+                <div class="container-fluid">
+                    <header class="topbar sticky-top">
+                        <div class="with-vertical">
+                            <nav class="navbar navbar-expand-lg justify-content-between p-0">
+                                <ul class="navbar-nav" id="sidebartog">
+                                    <li class="nav-item nav-icon-hover-bg rounded-circle">
+                                        <a class="nav-link sidebartoggler" id="headerCollapse"
+                                            href="javascript:void(0)">
+                                            <iconify-icon icon="solar:list-bold-duotone" class="fs-7"></iconify-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-center">
+                                    <li class="nav-item dropdown nav-icon-hover-bg rounded-circle">
+                                        <a class="nav-link position-relative" href="javascript:void(0)" id="drop3"
+                                            aria-expanded="false">
+                                            <i class="fs-6 fa fa-bell"></i>
+                                            <div class="pulse">
+                                                <span class="heartbit border-warning"></span>
+                                                <span class="point text-bg-warning"></span>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu content-dd dropdown-menu-end dropdown-menu-animate-up"
+                                            aria-labelledby="drop3">
+                                            <!--  Messages -->
+                                            <div class="d-flex align-items-center py-3 px-7">
+                                                <h3 class="mb-0 fs-5">Notifications</h3>
+                                                <span class="badge bg-info ms-3">5 new</span>
+                                            </div>
+
+                                            <div class="message-body" data-simplebar>
+                                                <a href="javascript:void(0)"
+                                                    class="dropdown-item px-7 d-flex align-items-center py-6">
+                                                    <span class="flex-shrink-0">
+                                                        <img src="../assets/images/profile/user-2.jpg" alt="user"
+                                                            width="45" class="rounded-circle" />
+                                                    </span>
+                                                    <div class="w-100 ps-3">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <h5 class="mb-0 fs-3 fw-normal">
+                                                                Roman Joined the Team!
+                                                            </h5>
+                                                            <span class="fs-2 text-nowrap d-block text-muted">9:08
+                                                                AM</span>
+                                                        </div>
+                                                        <span class="fs-2 d-block mt-1 text-muted">Congratulate
+                                                            him</span>
+                                                    </div>
+                                                </a>
+
+                                                <a href="javascript:void(0)"
+                                                    class="dropdown-item px-7 d-flex align-items-center py-6">
+                                                    <span class="flex-shrink-0">
+                                                        <img src="../assets/images/profile/user-3.jpg" alt="user"
+                                                            width="45" class="rounded-circle" />
+                                                    </span>
+                                                    <div class="w-100 ps-3">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <h5 class="mb-0 fs-3 fw-normal">
+                                                                New message received
+                                                            </h5>
+                                                            <span class="fs-2 text-nowrap d-block text-muted">9:08
+                                                                AM</span>
+                                                        </div>
+                                                        <span class="fs-2 d-block mt-1 text-muted">Salma sent
+                                                            you new
+                                                            message</span>
+                                                    </div>
+                                                </a>
+
+                                                <a href="javascript:void(0)"
+                                                    class="dropdown-item px-7 d-flex align-items-center py-6">
+                                                    <span class="flex-shrink-0">
+                                                        <img src="../assets/images/profile/user-4.jpg" alt="user"
+                                                            width="45" class="rounded-circle" />
+                                                    </span>
+                                                    <div class="w-100 ps-3">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <h5 class="mb-0 fs-3 fw-normal">
+                                                                New Payment received
+                                                            </h5>
+                                                            <span class="fs-2 text-nowrap d-block text-muted">9:08
+                                                                AM</span>
+                                                        </div>
+                                                        <span class="fs-2 d-block mt-1 text-muted">Check your
+                                                            earnings</span>
+                                                    </div>
+                                                </a>
+
+                                                <a href="javascript:void(0)"
+                                                    class="dropdown-item px-7 d-flex align-items-center py-6">
+                                                    <span class="flex-shrink-0">
+                                                        <img src="../assets/images/profile/user-5.jpg" alt="user"
+                                                            width="45" class="rounded-circle" />
+                                                    </span>
+                                                    <div class="w-100 ps-3">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <h5 class="mb-0 fs-3 fw-normal">
+                                                                New message received
+                                                            </h5>
+                                                            <span class="fs-2 text-nowrap d-block text-muted">9:08
+                                                                AM</span>
+                                                        </div>
+                                                        <span class="fs-2 d-block mt-1 text-muted">Salma sent
+                                                            you new
+                                                            message</span>
+                                                    </div>
+                                                </a>
+
+                                                <a href="javascript:void(0)"
+                                                    class="dropdown-item px-7 d-flex align-items-center py-6">
+                                                    <span class="flex-shrink-0">
+                                                        <img src="../assets/images/profile/user-6.jpg" alt="user"
+                                                            width="45" class="rounded-circle" />
+                                                    </span>
+                                                    <div class="w-100 ps-3">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <h5 class="mb-0 fs-3 fw-normal">
+                                                                Roman Joined the Team!
+                                                            </h5>
+                                                            <span class="fs-2 text-nowrap d-block text-muted">9:08
+                                                                AM</span>
+                                                        </div>
+                                                        <span class="fs-2 d-block mt-1 text-muted">Congratulate
+                                                            him</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <div class="py-6 px-7 mb-1">
+                                                <button class="btn btn-primary w-100">
+                                                    See All Messages
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link position-relative ms-6" href="javascript:void(0)" id="drop1"
+                                            aria-expanded="false">
+                                            <div class="d-flex align-items-center flex-shrink-0">
+                                                <div class="user-profile me-sm-3 me-2">
+                                                    <img src="../assets/images/profile/user-1.jpg" width="40"
+                                                        class="rounded-circle" alt="spike-img">
+                                                </div>
+                                                <span class="d-sm-none d-block"><iconify-icon
+                                                        icon="solar:alt-arrow-down-line-duotone"></iconify-icon></span>
+
+                                                <div class="d-none d-sm-block">
+                                                    <h6 class="fs-4 mb-1 profile-name">
+                                                        Mike Nielsen
+                                                    </h6>
+                                                    <p class="fs-3 lh-base mb-0 profile-subtext">
+                                                        Admin
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu content-dd dropdown-menu-end dropdown-menu-animate-up"
+                                            aria-labelledby="drop1">
+                                            <div class="profile-dropdown position-relative" data-simplebar>
+                                                <div
+                                                    class="d-flex align-items-center justify-content-between pt-3 px-7">
+                                                    <h3 class="mb-0 fs-5">User Profile</h3>
+
+                                                </div>
+
+                                                <div class="d-flex align-items-center mx-7 py-9 border-bottom">
+                                                    <img src="../assets/images/profile/user-1.jpg" alt="user" width="90"
+                                                        class="rounded-circle" />
+                                                    <div class="ms-4">
+                                                        <h4 class="mb-0 fs-5 fw-normal">Mike Nielsen</h4>
+                                                        <span class="text-muted">Admin</span>
+                                                        <p class="text-muted mb-0 mt-1 d-flex align-items-center">
+                                                            <iconify-icon icon="solar:mailbox-line-duotone"
+                                                                class="fs-4 me-1"></iconify-icon>
+                                                            info@spike.com
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="message-body">
+                                                    <a href="profile.html"
+                                                        class="dropdown-item px-7 d-flex align-items-center py-6">
+                                                        <span
+                                                            class="btn px-3 py-2 bg-info-subtle rounded-1 text-info shadow-none">
+                                                            <i class="fs-7 fa-solid fa-circle-user"></i>
+                                                        </span>
+                                                        <div class="w-100 ps-3 ms-1">
+                                                            <h5 class="mb-0 mt-1 fs-4 fw-normal">
+                                                                My Profile
+                                                            </h5>
+                                                            <span class="fs-3 d-block mt-1 text-muted">Account
+                                                                Settings</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+
+                                                <div class="py-6 px-7 mb-1">
+                                                    <a href="./authentication/login.html"
+                                                        class="btn btn-primary w-100">Log Out</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+
+                    <!-- Main work  -->
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card w-100">
+                                <div class="card-body py-3">
+                                    <div>
+                                        <h4 class="fs-6 mb-0">Profile</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-4">
+                            <div class="card w-100">
+                                <div class="card-body ">
+                                    <div class="text-center mb-2">
+                                        <img src="../assets/images/profile/user-1.jpg" alt="spike-img"
+                                            class="img-fluid rounded-circle" width="120" height="120">
+                                    </div>
+                                    <div class="text-center">
+                                        <h5 class="mb-0">Mike Nielsen</h5>
+                                        <p class="mb-0">mike@example.com</p>
+                                        <p class="mb-2">9876543210</p>
+                                        <a href="./authentication/login.html"
+                                            class="btn btn-danger text-nowrap">Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow-none border">
+                                <div class="card-body">
+                                    <h4 class="mb-3">Introduction</h4>
+                                    <p class="card-subtitle">Hello, I am Mike Nielsen. I love making websites and
+                                        graphics. Lorem
+                                        ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur, adipisicing
+                                        elit. Vero, expedita aspernatur sequi soluta corrupti, facilis iste illo eius
+                                        error quam dolores doloremque velit consequatur modi ipsum, quisquam optio
+                                        suscipit quae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card w-100">
+                                <ul class="nav nav-pills user-profile-tab justify-content-start mt-0 bg-primary-subtle  rounded-top-10"
+                                    id="pills-tab" role="tablist">
+                                    <li class="nav-item w-50" role="presentation">
+                                        <button
+                                            class="nav-link hstack gap-2 rounded-0 py-6 active w-100 justify-content-center"
+                                            id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                                            type="button" role="tab" aria-controls="pills-profile" aria-selected="true">
+                                            <i class="fa fa-user-circle fs-5"></i>
+                                            <span class="d-none d-md-block">Edit Profile</span>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item w-50" role="presentation">
+                                        <button
+                                            class="nav-link hstack gap-2 rounded-0 py-6 w-100 justify-content-center"
+                                            id="pills-followers-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-followers" type="button" role="tab"
+                                            aria-controls="pills-followers" aria-selected="false" tabindex="-1">
+                                            <i class="fa-solid fa-key fs-5"></i>
+                                            <span class="d-none d-md-block">Change Password</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                                <div class="card-body ">
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel"
+                                            aria-labelledby="pills-profile-tab" tabindex="0">
+
+                                            <h4 class="card-title">Personal Details</h4>
+                                            <p class="card-subtitle mb-4">To change your personal detail , edit and
+                                                save from here</p>
+                                            <form>
+                                                <div class="mb-3">
+                                                    <div class="social-img-wrap">
+                                                        <div class="social-img">
+                                                            <img id="profile-img"
+                                                                src="../assets/images/profile/user-1.jpg" alt="profile">
+                                                        </div>
+                                                        <div class="edit-icon">
+                                                            <i class="fa fa-edit"></i>
+                                                            <input type="file" id="file-input" hidden="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <div class="col-lg-6">
+                                                        <div>
+                                                            <label for="fname" class="form-label">First
+                                                                Name</label>
+                                                            <input type="text" class="form-control" id="fname"
+                                                                name="fname" value="Mike">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="mb-3">
+                                                            <label for="lname" class="form-label">Last
+                                                                Name</label>
+                                                            <input type="text" class="form-control" id="lname"
+                                                                name="lname" value="Nielsen">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <div class="col-lg-6">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="email"
+                                                            value="info@modernize.com" name="email">
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <label for="number" class="form-label">Phone Number</label>
+                                                        <input type="number" class="form-control" id="number"
+                                                            value="9876543210" name="number">
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="desc" class="form-label">Email</label>
+                                                    <textarea rows="6" class="form-control" id="desc"
+                                                        name="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos quae maiores vel ratione placeat! Nihil quam optio libero dolorum accusamus explicabo, quidem officia reiciendis aliquid tempora mollitia porro aperiam.</textarea>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="d-flex align-items-center mt-4 gap-6">
+                                                        <button class="btn btn-primary">Save</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-followers" role="tabpanel"
+                                            aria-labelledby="pills-followers-tab" tabindex="0">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="opass" class="form-label">Old Password</label>
+                                                    <input type="password" class="form-control" id="opass" name="opass"
+                                                        placeholder="Enter Old Password">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="npass" class="form-label">New Password</label>
+                                                    <input type="password" class="form-control" id="npass" name="npass"
+                                                        placeholder="Enter New Password">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="cpass" class="form-label">Confirm Password</label>
+                                                    <input type="password" class="form-control" id="cpass" name="cpass"
+                                                        placeholder="Enter Confirm Password">
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <div class="d-flex align-items-center mt-4 gap-6">
+                                                        <button class="btn btn-primary">Save</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Main work  -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../assets/js/vendor.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/simplebar.min.js"></script>
+    <script src="../assets/js/app.init.js"></script>
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/js/sidebarmenu.js"></script>
+    <script src="../assets/js/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+    <script>
+        const fileInput = document.getElementById('file-input');
+        const profileImg = document.getElementById('profile-img');
+        const editIcon = document.querySelector('.edit-icon');
+
+        editIcon.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        fileInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    profileImg.src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</body>
+
+</html>

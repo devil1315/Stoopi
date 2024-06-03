@@ -1,0 +1,192 @@
+.container-fluid {
+    max-width: 100% !important;
+}
+
+@media(min-width:1300px) and (max-width:2500px) {
+    .page-wrapper {
+        margin-left: 270px;
+    }
+
+    #sidebartog {
+        display: none;
+    }
+}
+
+.user-select {
+    user-select: none;
+}
+
+.rounded-top-10 {
+    border-top-left-radius: 1.125rem !important;
+    border-top-right-radius: 1.125rem !important;
+}
+
+.social-img-wrap {
+    background: linear-gradient(253deg, #2196F3 11.51%, rgba(122, 112, 186, 0) 82.07%);
+    display: inline-block;
+    border-radius: 100%;
+    padding: 2px;
+    position: relative;
+}
+
+.social-img {
+    padding: 5px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.social-img img {
+    width: 120px;
+    aspect-ratio: 4/4;
+    border-radius: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    overflow-clip-margin: border-box;
+}
+
+.social-img-wrap .edit-icon {
+    position: absolute;
+    right: 0;
+    bottom: 18px;
+    width: 24px;
+    height: 24px;
+    background: #2196F3;
+    border: 1px solid #2196F3;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social-img-wrap .edit-icon i {
+    color: #fff;
+    font-size: 13px;
+}
+
+.ck-editor__editable[role="textbox"] {
+    min-height: 350px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.social-images {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+.para {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    white-space: normal !important;
+    max-width: 400px;
+}
+
+#configurat .social-images {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    left: auto;
+}
+
+.product-img img {
+    aspect-ratio: 4 / 4;
+    object-fit: cover;
+}
+
+#sync5 img {
+    aspect-ratio: 4 / 4;
+    object-fit: cover;
+    overflow: hidden;
+    overflow-clip-margin: padding-box;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.owl-nav button {
+    background-color: #2196F3 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    color: #fff !important;
+}
+
+.owl-next {
+    position: absolute;
+    right: 15px;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 15px;
+}
+
+.w-33 {
+    width: 33.33%;
+}
+
+.bookmark {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+
+}
+
+.booked-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booked-icon i {
+    font-size: 16px;
+}
+
+.category_tag {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.following-users {
+    border: 1px dashed rgba(106, 113, 133, 0.3);
+    padding: 7px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.scrollbarr {
+    max-height: 450px;
+    overflow-y: auto;
+}
